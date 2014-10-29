@@ -2,7 +2,7 @@
 
 HOST_NAME=$2
 PORT=80
-MAN="Usage: valerie {start|stop|refresh|info}"
+MAN="Usage: valerie [<options>] {start|stop|refresh|info} [<args>]"
 
 function quit { echo $1; exit 1; }
 
